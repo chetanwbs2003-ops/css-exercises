@@ -1,1 +1,17 @@
 /* Add CSS Styling */
+.Odd{
+    background-color: hsl(15, 72%, 75%);
+    font-family: Verdana,"DejaVu Sans",serif;
+}
+#one{
+    color: blue;
+    font-size: 36px;
+}
+#cooler{
+    font-size: 24px;
+}
+#another{
+    background-color: hsl(120, 74%, 69%);
+    font-size: 24px;
+    font-weight: 700;
+}
