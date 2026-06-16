@@ -1,1 +1,13 @@
 /* Add CSS Styling */
+.Left , .Right{
+    font-size: 28px;
+    font-family: Helvetica , "Times New Roman" , sans-serif;
+}
+.Left{
+    color:white;
+    background-color: black;
+}
+.Right{
+    color:black;
+    background-color: yellow;
+}
