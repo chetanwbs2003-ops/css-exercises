@@ -67,3 +67,55 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* Solution */
+
+  /* <div class="modal">
+      <div class="icon">!</div>
+      <div class="header">Are you sure you want to do that?</div>
+      <button class="close-button">✖</button>
+      <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur excepturi id soluta, numquam minima rerum doloremque eveniet aspernatur beatae commodi. Cupiditate recusandae ad repellendus quidem consectetur sequi amet aspernatur cumque!</div>
+      <button class="continue">Continue</button>
+      <button class="cancel">Cancel</button>
+    </div> */
+
+.modal{
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.info{
+  display: flex;
+  flex-wrap: wrap;
+  Justify-content: space-between;
+  gap: 16px;
+}
+
+.header{
+  font-weight: 700;
+  display: flex;
+  margin-right: auto;
+  font-size: 18px;
+  height: 30px;
+  /* border: 1px solid black; */
+}
+
+.text{
+  display: flex;
+  margin-left: 58px;
+  height: auto;
+  /* border: 1px solid black; */
+  margin-top: -12px;
+}
+
+.buttons{
+  display: flex;
+  flex-wrap: wrap;
+  gap:8px;
+  justify-content: flex-end;
+  align-self: flex-start;
+  margin-left: 58px;
+  margin-top: 16px;
+  /* border: 1px solid black; */
+}
